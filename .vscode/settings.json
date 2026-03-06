@@ -5,7 +5,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "vscode.html-language-features",
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.linkedEditing": true,
   "editor.quickSuggestions": {
     "comments": "off",
@@ -56,5 +56,6 @@
   "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
   "inlineChat.accessibleDiffView": "off",
-  "terminal.integrated.initialHint": false
+  "terminal.integrated.initialHint": false,
+  "workbench.startupEditor": "none"
 }
