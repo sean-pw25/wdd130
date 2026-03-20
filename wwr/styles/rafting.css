@@ -1,7 +1,7 @@
 :root {
     --river-blue-color: #22698d9a;
     --stone-color: #35363a;
-    --orange-color: #ed5d24;
+    --red-color: #ed2424;
     --mist-color: #f4f6ee;
     --yellow-color: #efddb7;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -29,7 +29,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--orange-color)
+    color: var(--red-color)
 }
 
 nav,
