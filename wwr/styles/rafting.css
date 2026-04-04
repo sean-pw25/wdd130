@@ -155,11 +155,12 @@ h1 {
 }
 
 address {
+    display: block;
     font-style: normal;
     text-align: center;
     background-color: var(--river-blue-color);
     padding: 1rem .2rem;
-    margin-top: 1rem;
+    margin-top: 1.257rem;
 }
 
 .company-name {
