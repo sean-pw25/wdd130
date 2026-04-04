@@ -162,10 +162,8 @@ address {
     margin-top: 1rem;
 }
 
-address h2 {
-    font-family: var(--body-font);
-    color: var(--mist-color);
-    padding-bottom: .5rem;
+.company-name {
+    position: relative;
 }
 
 address p {
