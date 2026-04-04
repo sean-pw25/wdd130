@@ -23,48 +23,66 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Group of people white water rafting">
-            <h1>Rapids White Water Rafting</h1>
-            <article>
-                <img src="images/client.jpg" alt="Happy Client">
-                <p>Here at Rapids White Water Rafting, we are dedicated to providing safe, fun
-                    experiences for all who would like to participate in this adventurous sport.</p>
-            </article>
+        <address>
+            <h2>Rapids White Water Rafting</h2>
+            <p>7200 NW Front Ave</p>
+            <p>Portland, Oregon</p>
+            <p>+1 999 999 9999</p>
+            <p>info@rapidsrafting.com</p>
+        </address>
+        <div class="contact">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1974.7495029224779!2d-122.75086548162143!3d45.5761186977834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495081b198e65a5%3A0x8febc81bf42739ff!2s7200%20NW%20Front%20Ave%2C%20Portland%2C%20OR%2097210!5e0!3m2!1sen!2sus!4v1775161054122!5m2!1sen!2sus"
+                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form>
+                <div class="formitem column1">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe">
+                </div>
+                <div class="formitem column1">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="name@example.com">
+                </div>
+                <div class="select">
+                    <p>Message Purpose</p>
+                    <div class="formitem column2">
+                        <input type="radio" id="purpose1" name="purpose1">
+                        <label for="purpose1">General Inquiry</label>
+                        <input type="radio" id="purpose2" name="purpose2">
+                        <label for="purpose2">Reservation Question</label>
+                        <input type="radio" id="purpose3" name="purpose3">
+                        <label for="purpose3">Website Suggestion</label>
+                    </div>
+                </div> <!--select-->
+                <div class="formitem">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Type here"></textarea>
+                </div>
+                <div class="column3">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label id="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button id="submit">Send Message</button>
+            </form>
+        </div> <!--contact-->
+        <div class="serve">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employees">
+                <figure>
+                    <img src="images/employees/george-thomas.jpg">
+                    <figcaption>George Thomas</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employees/amanda-barnett.jpg">
+                    <figcaption>Amanda Barnett</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employees/jeffrey-shaw.jpg">
+                    <figcaption>Jeffrey Shaw</figcaption>
+                </figure>
+            </div>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            <p>Rapids white water rafting was founded by Jaron Watson in 2009. His love for the
-                rapids inspired many to take the plunge and ride the wild rivers of the Pacific
-                Northwest.</p>
-            <img src="images/founder.jpg" alt="Founder Jaron Watson">
-            <p>We have
-                always taken pride in our instructor's abilities to train and provide memorable
-                experiences for everyone regardless of their experience level.</p>
-        </section>
-        <section class="adventure">
-            <h2 id="adventure-title">Adventure Awaits You!</h2>
-            <figure>
-                <img src="images/adventures/columbia-river.jpg" alt="Columbia River">
-                <figcaption>Columbia River</figcaption>
-            </figure>
-            <figure>
-                <img src="images/adventures/deschutes-river.jpg" alt="Deschutes River">
-                <figcaption>Deschutes River</figcaption>
-            </figure>
-            <figure>
-                <img src="images/adventures/snake-river.jpg" alt="Snake River">
-                <figcaption>Snake River</figcaption>
-            </figure>
-            <figure>
-                <img src="images/adventures/mule-creek.jpg" alt="Mule Creek River">
-                <figcaption>Mule Creek River</figcaption>
-            </figure>
-            <figure>
-                <img src="images/adventures/rogue-river.jpg" alt="Rogue River">
-                <figcaption>Rogue River</figcaption>
-            </figure>
-        </section>
     </main>
     <footer>
         <p>&COPY; 2026 | Rapids White Water Rafting | Sean Wood</p>

@@ -3,8 +3,8 @@
     --stone-color: #111;
     --mist-color: #f4f6ee;
     --yellow-color: #efddb7;
-    --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif;
+    --heading-font: 'Times New Roman', Georgia, serif;
+    --body-font: Arial, Helvetica, sans-serif, serif;
 }
 
 * {
@@ -152,4 +152,146 @@ h1 {
     float: right;
     width: 125px;
     height: auto;
+}
+
+address {
+    font-style: normal;
+    text-align: center;
+    background-color: var(--river-blue-color);
+    padding: 1rem .2rem;
+    margin-top: 1rem;
+}
+
+address h2 {
+    font-family: var(--body-font);
+    color: var(--mist-color);
+    padding-bottom: .5rem;
+}
+
+address p {
+    font-family: var(--body-font);
+    color: var(--mist-color);
+    padding: .2rem;
+    margin: 0;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1.4fr 2fr;
+    padding: 1rem 0;
+}
+
+iframe {
+    border: 3px solid #999;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    display: grid;
+    padding: 0 6rem 0 3rem;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: left;
+}
+
+.column3 {
+    display: flex;
+    padding: .6rem 0;
+    font-size: .98rem;
+    align-items: center;
+}
+
+.column3 input {
+    padding: .4rem;
+}
+
+.column3 label {
+    width: 100%;
+}
+
+.select {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.select p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.formitem {
+    display: grid;
+    align-items: center;
+}
+
+input,
+textarea {
+    border: 2px solid gray;
+    border-radius: .2rem;
+    padding: .4rem .5rem;
+    font-size: 1rem;
+    margin: .2rem;
+}
+
+
+textarea {
+    margin: 0;
+    height: 5rem;
+}
+
+#submit {
+    padding: .4rem;
+    font-size: 1rem;
+    border-radius: .2rem;
+    border: 2px solid gray;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #bbb
+}
+
+.serve {
+    background-color: var(--river-blue-color);
+    margin-bottom: 1rem;
+}
+
+.serve h2 {
+    color: var(--mist-color);
+    font-family: var(--body-font);
+    text-align: center;
+    padding: 1rem 0 0;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 4rem
+}
+
+.employees figure {
+    display: block;
+    margin: 1rem;
+}
+
+.employees figure img {
+    height: 115px;
+    width: auto;
+    margin: auto;
+}
+
+.employees figcaption {
+    color: white;
+    text-align: center;
 }
