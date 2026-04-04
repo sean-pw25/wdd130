@@ -169,7 +169,7 @@ address {
 
 address p {
     font-family: var(--body-font);
-    color: white;
+    color: var(--mist-color);
     padding: .2rem;
     margin: 0;
 }
